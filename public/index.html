@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='styles.css'>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="chatContainer">
+        <div class="chatHeader">
+            <div class="logo">
+                <i class="far fa-meh-rolling-eyes"></i>
+                <h3>chat</h3>
+            </div>
+            <p id='name'>Name</p>
+        </div>
+        <div class="chatBody">
+            <div class="chatMain">
+                <div class="chatContent">
+                    <div class="message">
+                        <div class="messageRow received">
+                            <div class="messageTitle">
+                                Matthew
+                            </div>
+                            <div class="messageContent">
+                                Wassup
+                            </div>
+                            <div class="messageTime">
+                                4:20
+                            </div>
+                        </div>
+                        <div class="messageRow sent">
+                            <div class="messageTitle">
+                                Mashen
+                            </div>
+                            <div class="messageContent">
+                                Yee
+                            </div>
+                            <div class="messageTime">
+                                4:21
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class='messageText'>
+                    <input type='text' name='message' id='message'
+                    placeholder='message...' autocomplete="off">
+                    <button>
+                        <i class="fas fa-angle-right">Send</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
