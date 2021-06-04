@@ -14,48 +14,34 @@
         <div class="chatHeader">
             <div class="logo">
                 <i class="far fa-meh-rolling-eyes"></i>
-                <h3>chat</h3>
+                <h3>chatbox</h3>
             </div>
-            <p id='name'>Name</p>
+            <p id='yourName'>name</p>
         </div>
         <div class="chatBody">
             <div class="chatMain">
                 <div class="chatContent">
                     <div class="message">
                         <div class="messageRow received">
-                            <div class="messageTitle">
-                                Matthew
-                            </div>
-                            <div class="messageContent">
-                                Wassup
-                            </div>
-                            <div class="messageTime">
-                                4:20
-                            </div>
                         </div>
                         <div class="messageRow sent">
-                            <div class="messageTitle">
-                                Mashen
-                            </div>
-                            <div class="messageContent">
-                                Yee
-                            </div>
-                            <div class="messageTime">
-                                4:21
-                            </div>
                         </div>
                     </div>
                 </div>
                 <form class='messageText'>
                     <input type='text' name='message' id='message'
                     placeholder='message...' autocomplete="off">
-                    <button>
-                        <i class="fas fa-angle-right">Send</i>
+                    <button id='sendButton'>
+                        send
+                        <i class="fas fa-angle-right"></i>
                     </button>
                 </form>
             </div>
         </div>
     </div>
+
+    <script src='/socket.io/socket.io.js'></script>
+    <script src='app.js'></script>
 </body>
 
 </html>
